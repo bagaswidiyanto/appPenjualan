@@ -127,45 +127,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="0dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Total Semua"
-            android:textColor="@color/colorPrimary"
-            android:id="@+id/total"
-            android:textStyle="bold"
-            android:layout_marginBottom="0dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Uang Kembali"
-            android:textColor="@color/colorPrimary"
-            android:id="@+id/kembalian"
-            android:textStyle="bold"
-            android:layout_marginBottom="0dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Bonus Belanja"
-            android:textColor="@color/colorPrimary"
-            android:id="@+id/bonus"
-            android:textStyle="bold"
-            android:layout_marginBottom="0dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Keterangan"
-            android:textColor="@color/colorPrimary"
-            android:id="@+id/keterangan"
-            android:textStyle="bold"
-            android:layout_marginBottom="0dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,7 +138,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/reset"
-                android:text="Hapus"
+                android:text="RESET"
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:background="@color/colorAccent"
