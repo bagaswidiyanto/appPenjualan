@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".HasilPenjualan">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Nama Pelanggan"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/nama_pelanggan"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Nama Barang"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/nama_barang"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Jumlah Barang"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/jml_barang"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Harga Barang"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/harga_barang"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Uang Barang"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/jml_uang"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Total Semua"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/total"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Uang Kembali"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/kembalian"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bonus Belanja"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/bonus"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Keterangan"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/keterangan"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
